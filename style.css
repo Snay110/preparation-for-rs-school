@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(94, 67, 67);
+}
+.container{
+  max-width: 100%;
+  margin: auto;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.card {
+    display: block
+   
+    
+}
+#next{
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  position: absolute ;
+  left: 10px;
+  top: 80%;
+  transform: translateY(-50%);
+
+}
+#prev{
+  background-color: brown;
+  color: white;
+  padding: 10px 20px;
+  position: absolute;
+  right: 10px;
+  top: 80%;
+
+  transform: translateY(-50%)
+}
